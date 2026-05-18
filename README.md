@@ -11,9 +11,9 @@ By night: building a portfolio of AI-native products across education, health, a
 | Project | Domain | What it does |
 |---------|--------|--------------|
 | [**yuanfang-design**](../../yuanfang-design) | EdTech B2B | Design tool for education institutions — input your logo + VI, output beautiful posters and internal materials. "Every employee a designer." |
-| [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. |
-| [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. |
-| [**Monitor**](../../openclaw-monitor) | AI infrastructure | Self-maintaining agent loop powered by Claude Code: auto bug-fix → escalate to operator → receive upgrade plan → auto-upgrade. Spiral self-improvement. |
+| [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
+| [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
+| [**Monitor**](../../openclaw-monitor) | AI infrastructure | Self-maintaining agent loop powered by Claude Code: auto bug-fix → escalate to operator → receive upgrade plan → auto-upgrade. Spiral self-improvement. *(In private development)* |
 
 ## 🛠️ How I build
 
