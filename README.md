@@ -10,6 +10,7 @@ By night: building a portfolio of AI-native products across education, health, a
 
 | Project | Domain | What it does |
 |---------|--------|--------------|
+| [BloomingFuture-web](https://github.com/EricEEEEEEE/BloomingFuture-web) | EdTech / Brand | Global site for Blooming Future (花开远方) — a 26-year Chinese humanities education group expanding from Tianjin to Singapore. Plain HTML + CSS + JS, hosted on Cloudflare Pages. Live at bloomingfuture.io. |
 | [**yuanfang-design**](../../yuanfang-design) | EdTech B2B | Design tool for education institutions — input your logo + VI, output beautiful posters and internal materials. "Every employee a designer." |
 | [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
 | [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
