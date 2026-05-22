@@ -12,9 +12,33 @@ By night: building a portfolio of AI-native products across education, health, a
 |---------|--------|--------------|
 | [BloomingFuture-web](https://github.com/EricEEEEEEE/BloomingFuture-web) | EdTech / Brand | Global site for Blooming Future (花开远方) — a 26-year Chinese humanities education group expanding from Tianjin to Singapore. Plain HTML + CSS + JS, hosted on Cloudflare Pages. Live at bloomingfuture.io. |
 | [**yuanfang-design**](../../yuanfang-design) | EdTech B2B | Design tool for education institutions — input your logo + VI, output beautiful posters and internal materials. "Every employee a designer." |
+| [**TG Watch Skill**](../../TG-watch-skil) | Education / News / Finance | Installable visual-card system that works with OpenAI Codex. It helps people turn custom education, news, finance, and map-based information into structured Telegram-ready image cards. |
 | [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
 | [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
 | [**Monitor**](../../openclaw-monitor) | AI infrastructure | Self-maintaining agent loop powered by Claude Code: auto bug-fix → escalate to operator → receive upgrade plan → auto-upgrade. Spiral self-improvement. *(In private development)* |
+
+## TG Watch Skill
+
+<p align="center">
+  <a href="https://github.com/EricEEEEEEE/TG-watch-skil">
+    <img src="https://raw.githubusercontent.com/EricEEEEEEE/TG-watch-skil/main/assets/examples/anchor-price-card-preview.png" alt="TG Watch Skill visual card preview" width="760">
+  </a>
+</p>
+
+**TG Watch Skill** is a customisable visual information system that can be installed and used with OpenAI Codex. The idea is simple: describe the content you want, and Codex helps turn it into structured, beautiful, Telegram-ready visual cards.
+
+Project file: [SKILL.md](https://github.com/EricEEEEEEE/TG-watch-skil/blob/main/SKILL.md)
+
+The education use case matters most to me. Teachers and education teams should be able to create bilingual news explainers, lesson warm-ups, vocabulary cards, classroom discussion prompts, and curriculum-linked visual briefings without needing a designer.
+
+The same system can also support:
+
+- **Education** — age-appropriate news cards, bilingual learning materials, teacher briefings, classroom visuals
+- **News** — customised topic briefings by source, location, audience, and urgency
+- **Finance** — price anchors, risk cards, market movement explainers, portfolio-monitoring visuals
+- **Maps** — location-based event cards, route context, regional alerts, campus or city information displays
+
+The first public template is an anchor-price card for financial monitoring. The larger product direction is broader: a Codex-powered visual layer for people who want better information design without hand-building the software themselves.
 
 ## 🛠️ How I build
 
