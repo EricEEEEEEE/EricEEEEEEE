@@ -14,14 +14,16 @@ By night: building a portfolio of AI-native products across education, health, a
 | [**yuanfang-design**](https://github.com/EricEEEEEEE/yuanfang-design) | EdTech B2B | Design tool for education institutions — input your logo + VI, output beautiful posters and internal materials. "Every employee a designer." |
 | [**yuanfang-AI-research**](https://github.com/EricEEEEEEE/yuanfang-AI-research) | EdTech / AI | AI-powered lesson research workbench for Blooming Future teachers — RAG over audited knowledge base, source-traceable answers only, domestic LLMs (Doubao, Kimi, DeepSeek). *(In private development)* |
 | [**TG Watch Skill**](https://github.com/EricEEEEEEE/TG-watch-skill) | Education / News / Finance | Installable visual-card system that works with OpenAI Codex. It helps people turn custom education, news, finance, and map-based information into structured Telegram-ready image cards. |
-| [**Macro Regime Kit**](https://github.com/EricEEEEEEE/macro-regime-kit) | Investing / AI agents | Open-source FRED macro-regime monitor with Obsidian reports, portfolio transmission, and Codex / Claude Code skill workflows. |
+| [**Macro Regime Kit**](https://github.com/EricEEEEEEE/macro-regime-kit) | Investing / AI agents | Helps investors turn macro noise into a weekly regime dashboard, so portfolio reviews can spot inflation, real-yield, curve, and financial-repression risk earlier. |
 | [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
 | [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
 | [**Monitor**](../../openclaw-monitor) | AI infrastructure | Self-maintaining agent loop powered by Claude Code: auto bug-fix → escalate to operator → receive upgrade plan → auto-upgrade. Spiral self-improvement. *(In private development)* |
 
 ## Macro Regime Kit
 
-[**Macro Regime Kit**](https://github.com/EricEEEEEEE/macro-regime-kit) turns macro monitoring into an installable research workflow: it fetches FRED indicators, scores a three-act regime model, writes Obsidian-ready weekly reports, and ships with a Codex / Claude Code skill so users can install, verify, and operate the system with an AI coding agent.
+[**Macro Regime Kit**](https://github.com/EricEEEEEEE/macro-regime-kit) helps investors and AI agents turn noisy macro data into a weekly regime dashboard, so portfolio reviews can see earlier when inflation, real yields, curve stress, or financial repression may be changing risk.
+
+It turns macro monitoring into an installable research workflow: it fetches FRED indicators, scores a three-act regime model, writes Obsidian-ready weekly reports, and ships with a Codex / Claude Code skill so users can install, verify, and operate the system with an AI coding agent.
 
 It is designed for people who want a safer macro research loop rather than another black-box trading bot:
 
