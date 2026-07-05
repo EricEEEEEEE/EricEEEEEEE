@@ -15,6 +15,7 @@ By night: building a portfolio of AI-native products across education, health, a
 | [**yuanfang-AI-research**](https://github.com/EricEEEEEEE/yuanfang-AI-research) | EdTech / AI | AI-powered lesson research workbench for Blooming Future teachers — RAG over audited knowledge base, source-traceable answers only, domestic LLMs (Doubao, Kimi, DeepSeek). *(In private development)* |
 | [**TG Watch Skill**](https://github.com/EricEEEEEEE/TG-watch-skill) | Education / News / Finance | Installable visual-card system that works with OpenAI Codex. It helps people turn custom education, news, finance, and map-based information into structured Telegram-ready image cards. |
 | [**Macro Regime Kit**](https://github.com/EricEEEEEEE/macro-regime-kit) | Investing / AI agents | Helps investors turn macro noise into a weekly regime dashboard, so portfolio reviews can spot inflation, real-yield, curve, and financial-repression risk earlier. |
+| [**FE Monitor Skill**](https://github.com/EricEEEEEEE/fe-monitor-skill) | Investing / Agent skills | Private Codex skill for building and migrating personal investment monitors — unified signal tiers, Telegram FE cards, config schema, dry-run checks, and human-review alerts only. |
 | [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
 | [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
 | [**Monitor**](../../openclaw-monitor) | AI infrastructure | Self-maintaining agent loop powered by Claude Code: auto bug-fix → escalate to operator → receive upgrade plan → auto-upgrade. Spiral self-improvement. *(In private development)* |
@@ -32,6 +33,20 @@ It is designed for people who want a safer macro research loop rather than anoth
 - **Obsidian workflow** — local Markdown reports and thesis feedback blocks
 - **Portfolio transmission** — optional `portfolio_risk.json` input for high-beta exposure review
 - **Agent-ready** — `macro-regime skill-install --target ~/.codex/skills` or `~/.claude/skills`
+
+## FE Monitor Skill
+
+[**FE Monitor Skill**](https://github.com/EricEEEEEEE/fe-monitor-skill) is a private OpenAI Codex skill for standardising my personal equity monitoring scripts. It turns company-specific investment questions into auditable monitor code: config-first thresholds, reusable core modules, Telegram FE cards, and dry-run checks before anything touches production.
+
+The important design choice is audit first. Existing scripts are checked against a migration checklist before Codex edits them, so hard-earned logic from Tencent, PDD, Pop Mart, ECHO, and NVDA monitors does not disappear during refactors.
+
+It is built as monitoring infrastructure, not a trading bot:
+
+- **No automated trading** — every signal is a prompt for human review
+- **Unified signal tiers** — P0/P1/P2 for risk and B1/B2/B3 for price opportunity
+- **Reusable monitor scaffold** — shared cards, datasources, valuation helpers, options math, SQLite state, and throttling
+- **Migration discipline** — audit existing scripts first, then upgrade one ticker at a time
+- **Deployment checks** — local and server dry-runs before Telegram FE delivery
 
 ## TG Watch Skill
 
