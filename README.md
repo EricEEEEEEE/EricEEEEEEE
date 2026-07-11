@@ -11,6 +11,7 @@ By night: building a portfolio of AI-native products across education, health, a
 | Project | Domain | What it does |
 |---------|--------|--------------|
 | [BloomingFuture-web](https://github.com/EricEEEEEEE/BloomingFuture-web) | EdTech / Brand | Global site for Blooming Future (花开远方) — a 26-year Chinese humanities education group expanding from Tianjin to Singapore. Plain HTML + CSS + JS, hosted on Cloudflare Pages. Live at bloomingfuture.io. |
+| [**Loopwork Skill**](https://github.com/EricEEEEEEE/loopwork-skill) | Dev tools / AI agents | Drop-in Claude Code skill that guides complete beginners from a raw idea to working software, then keeps the project growing through a perpetual loop: you set direction, AI runs the laps. Spec-driven + test-first + physically enforced guardrails, all in plain language. |
 | [**yuanfang-design**](https://github.com/EricEEEEEEE/yuanfang-design) | EdTech B2B | Design tool for education institutions — input your logo + VI, output beautiful posters and internal materials. "Every employee a designer." |
 | [**yuanfang-AI-research**](https://github.com/EricEEEEEEE/yuanfang-AI-research) | EdTech / AI | AI-powered lesson research workbench for Blooming Future teachers — RAG over audited knowledge base, source-traceable answers only, domestic LLMs (Doubao, Kimi, DeepSeek). *(In private development)* |
 | [**TG Watch Skill**](https://github.com/EricEEEEEEE/TG-watch-skill) | Education / News / Finance | Installable visual-card system that works with OpenAI Codex. It helps people turn custom education, news, finance, and map-based information into structured Telegram-ready image cards. |
@@ -19,6 +20,20 @@ By night: building a portfolio of AI-native products across education, health, a
 | [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
 | [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
 | [**Monitor**](../../openclaw-monitor) | AI infrastructure | Self-maintaining agent loop powered by Claude Code: auto bug-fix → escalate to operator → receive upgrade plan → auto-upgrade. Spiral self-improvement. *(In private development)* |
+
+## Loopwork Skill
+
+[**Loopwork Skill**](https://github.com/EricEEEEEEE/loopwork-skill) is a drop-in Claude Code skill for people who have a software idea but can't code. Put one folder into `~/.claude/skills/`, say "我想做一个记账工具，但我不会编程" — and it becomes your guide: interviews you one question at a time, writes a plain-language spec you can actually read, gets your approval on a plan, then runs an autonomous test-first build loop while you have coffee. You verify by clicking through a checklist, never by reading code.
+
+The hard-core half is what happens *after* v1 ships: the project enters a perpetual loop — **ignite (one sentence) → AI runs a batch → you accept → refuel the task list → ignite again**. Projects are never "done", they keep revolving. The skill's real graduation isn't the app; it's the user independently driving a full cycle.
+
+Built on researched precedents (spec-kit, BMAD, superpowers, Anthropic's official skill patterns) with discipline that is enforced, not suggested:
+
+- **Test-first, physically locked** — tests must fail before implementation; during implementation a PreToolUse hook blocks edits to tests/spec (including the known `sed`/`echo` bypass via Bash)
+- **Evidence-only acceptance** — `verify.sh` exit codes, fail-closed; the model's word is never proof
+- **External iteration counters** — batch caps counted by scripts, not by the model
+- **Hard human gates** — money / deletion / publishing / secrets always stop and ask
+- **Files as memory** — quit any time; come back a month later and one sentence resumes the loop
 
 ## Macro Regime Kit
 
