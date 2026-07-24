@@ -16,6 +16,7 @@ By night: building a portfolio of AI-native products across education, health, a
 | [**yuanfang-AI-research**](https://github.com/EricEEEEEEE/yuanfang-AI-research) | EdTech / AI | AI-powered lesson research workbench for Blooming Future teachers — RAG over audited knowledge base, source-traceable answers only, domestic LLMs (Doubao, Kimi, DeepSeek). *(In private development)* |
 | [**TG Watch Skill**](https://github.com/EricEEEEEEE/TG-watch-skill) | Education / News / Finance | Installable visual-card system that works with OpenAI Codex. It helps people turn custom education, news, finance, and map-based information into structured Telegram-ready image cards. |
 | [**Macro Regime Kit**](https://github.com/EricEEEEEEE/macro-regime-kit) | Investing / AI agents | Helps investors turn macro noise into a weekly regime dashboard, so portfolio reviews can spot inflation, real-yield, curve, and financial-repression risk earlier. |
+| [**Polymarket Sentiment Radar**](https://github.com/EricEEEEEEE/polymarket-sentiment-radar) | Investing / Market sentiment | Read-only Chinese daily radar that turns public prediction-market probabilities into a three-story sentiment brief and Telegram visual card. No betting, wallet, private key, or automated trading. |
 | [**FE Monitor Skill**](https://github.com/EricEEEEEEE/fe-monitor-skill) | Investing / Agent skills | Private Codex skill for building and migrating personal investment monitors — unified signal tiers, Telegram FE cards, config schema, dry-run checks, and human-review alerts only. |
 | [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
 | [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
@@ -48,6 +49,26 @@ It is designed for people who want a safer macro research loop rather than anoth
 - **Obsidian workflow** — local Markdown reports and thesis feedback blocks
 - **Portfolio transmission** — optional `portfolio_risk.json` input for high-beta exposure review
 - **Agent-ready** — `macro-regime skill-install --target ~/.codex/skills` or `~/.claude/skills`
+
+## Polymarket Sentiment Radar
+
+<p align="center">
+  <a href="https://github.com/EricEEEEEEE/polymarket-sentiment-radar">
+    <img src="https://raw.githubusercontent.com/EricEEEEEEE/polymarket-sentiment-radar/main/assets/polymarket-sentiment-radar-preview.png" alt="Polymarket Sentiment Radar Telegram card" width="760">
+  </a>
+</p>
+
+[**Polymarket Sentiment Radar**](https://github.com/EricEEEEEEE/polymarket-sentiment-radar) is a read-only daily briefing that treats prediction-market prices as a sentiment signal, not as a reason to bet.
+
+I see Polymarket as much closer to gambling than investing, and I do not recommend participating in its betting markets. The useful part is elsewhere: when people commit money to different outcomes, the resulting probabilities offer a compact view of what the market currently believes, fears, and disagrees about. Those prices are not facts, but they can be a useful reference point.
+
+For investors, checking that sentiment once a day adds another lens to the research process. It can reveal which geopolitical, macro, crypto, technology, and policy narratives are moving before they become obvious in a conventional news feed. It never replaces fundamentals, source verification, or independent judgment.
+
+For everyone else, prediction markets are also an interesting window into the world. Every day brings unusual questions, surprising disagreements, and events that may never appear in a personal news feed. The radar turns that stream into one visual card and three concise Chinese stories.
+
+> 核心理念：不参与赌博，不把概率当作事实，只把预测市场作为观察情绪、分歧和世界趣事的只读雷达。
+
+The script uses public data only. It connects to no wallet, holds no private key, places no trade, and performs no automated financial action. A seven-day display ledger prevents repeated stories, while source-bound Telegram visuals keep each briefing short, traceable, and mobile-readable.
 
 ## FE Monitor Skill
 
