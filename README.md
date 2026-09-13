@@ -11,6 +11,7 @@ By night: building a portfolio of AI-native products across education, health, a
 | Project | Domain | What it does |
 |---------|--------|--------------|
 | [BloomingFuture-web](https://github.com/EricEEEEEEE/BloomingFuture-web) | EdTech / Brand | Global site for Blooming Future (花开远方) — a 26-year Chinese humanities education group expanding from Tianjin to Singapore. Plain HTML + CSS + JS, hosted on Cloudflare Pages. Live at bloomingfuture.io. |
+| [**Learning English Singapore**](https://github.com/EricEEEEEEE/Learning-English-Singapore) | EdTech / AI | Listening-first English practice for newcomers in Singapore. It turns each learner's real-life goal into a guided scenario, lets the AI speak first, and builds confidence for everyday conversations without forcing classroom or peer interaction. *(Interactive prototype in development)* |
 | [**Loopwork Skill**](https://github.com/EricEEEEEEE/loopwork-skill-claude-code) ([Claude Code](https://github.com/EricEEEEEEE/loopwork-skill-claude-code) · [Codex](https://github.com/EricEEEEEEE/loopwork-skill-codex)) | Dev tools / AI agents | Drop-in agent skill that guides complete beginners from a raw idea to working software, then keeps the project growing through a perpetual loop: you set direction, AI runs the laps. Spec-driven + test-first + enforced guardrails, all in plain language. Two native editions: Claude Code & OpenAI Codex. |
 | [**yuanfang-design**](https://github.com/EricEEEEEEE/yuanfang-design) | EdTech B2B | Design tool for education institutions — input your logo + VI, output beautiful posters and internal materials. "Every employee a designer." |
 | [**yuanfang-AI-research**](https://github.com/EricEEEEEEE/yuanfang-AI-research) | EdTech / AI | AI-powered lesson research workbench for Blooming Future teachers — RAG over audited knowledge base, source-traceable answers only, domestic LLMs (Doubao, Kimi, DeepSeek). *(In private development)* |
@@ -22,6 +23,24 @@ By night: building a portfolio of AI-native products across education, health, a
 | [**SE**](../../fab-openclaw) | Health | iOS health app — ingests Apple Health data and gives personalised daily guidance on exercise, diet, and sleep. *(In private development)* |
 | [**BE**](../../openclaw-workspace-be) | Dev tools | Coding assistant agent that lets non-programmers complete simple programming tasks. *(In private development)* |
 | [**Monitor**](../../openclaw-monitor) | AI infrastructure | Self-maintaining agent loop powered by Claude Code: auto bug-fix → escalate to operator → receive upgrade plan → auto-upgrade. Spiral self-improvement. *(In private development)* |
+
+## Learning English Singapore
+
+[**Learning English Singapore**](https://github.com/EricEEEEEEE/Learning-English-Singapore) is an AI-native learning product for people who have recently arrived in Singapore, including adults who know only the alphabet and a few everyday English words.
+
+The product starts with the situation the learner actually needs to handle: meeting a child's teacher, speaking with a colleague, visiting a clinic, asking for help in a shop, or another goal written in the learner's own words. It then prepares a short contextual demonstration and turns the same situation into guided practice. Listening comes first, speaking second. The AI opens the conversation, supports silence and hesitation, and varies the exchange so the learner can prepare for a real person rather than memorise one fixed script.
+
+The product treats Singapore English as a valid local variety of English and teaches accent, wording, register, and context without stigma. English remains the learning language; Simplified Chinese, Bahasa Indonesia, Japanese, Korean, and Hindi provide optional support for instructions and essential vocabulary.
+
+The current repository contains a responsive, offline interactive prototype covering:
+
+- a low-pressure, question-by-question learner profile instead of an exam
+- learner-defined and suggested Singapore life scenarios
+- a two-character listening and practice flow with AI-first turn-taking
+- adjustable pace, replay, pause, graduated help, local recovery, and accessibility settings
+- deterministic browser and state tests across desktop and mobile-sized layouts
+
+Google and WeChat sign-in, realtime voice conversation, generated scenario media, production data services, and native-speaker language review remain under development. The repository documents those boundaries so prototype behaviour is not mistaken for a released service.
 
 ## Loopwork Skill
 
